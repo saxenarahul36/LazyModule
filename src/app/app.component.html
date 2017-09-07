@@ -1,0 +1,28 @@
+<h1>Rahul Saxena Creating Angular Module</ h1>
+
+    <h3>
+        Angular 2 Seed
+    </h3>
+    <nav>
+        <a [routerLink]="['/']">
+          Home
+        </a> |
+        <a [routerLink]="['/about']">
+          About
+        </a> |
+        <a [routerLink]="['/github', 'angular']">
+          Github Repos
+        </a> |
+        <a [routerLink]="['/cardmodule']">
+         Lazy load Module
+        </a>
+    </nav>
+
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+
+
+    <footer>
+        © 2017
+    </footer>
